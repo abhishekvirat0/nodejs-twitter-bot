@@ -90,7 +90,7 @@ processing();
 
 function tweetIt(txt){
 	var tweet = {
-		// you can't tweet same tweet at same time
+		// you can't tweet same tweet at multiple time
 		// status: 'here is random array ' + array1[i] + 'with random number' + r +' #coding is must'
 		status: txt
 	}
